@@ -2,7 +2,13 @@
 
 html {}
 
-body {}
+body {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
 
 /* header */
 header {
@@ -29,6 +35,7 @@ header {
     flex: 0 0 19%;
     border-left: 1px solid #6C6C6C;
 }
+
 
 .icon-img {
     border-radius: 50%;
