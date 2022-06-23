@@ -40,3 +40,6 @@ Route::get('/follow-list','FollowsController@followList');
 Route::get('/follower-list','FollowsController@followerList');
 
 Route::get('/logout', 'Auth\LoginController@logout');
+
+Route::get('/post', 'PostsController@showPostPage');
+Route::post('/post', 'PostsController@postTweet');
