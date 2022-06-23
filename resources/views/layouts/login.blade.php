@@ -25,7 +25,7 @@
          <h1><a href="/index"><img src="images/main_logo.png"></a></h1>
           <div id="" class="">
                 <div id="">
-                    <p> <a id="acdn-button" class="acdn-button"> {{ Auth::user()->username }}さん<img class="icon-img"  src="images/dawn.png"></a></p>
+                    <p> <a id="acdn-button" class="acdn-button">さん<img class="icon-img"  src="images/dawn.png"></a></p>
                 <div>
                 <ul id="acdn-target" class="acdn-target">
                     <li><a href="/top">ホーム</a></li>
@@ -46,19 +46,19 @@
                 <p>フォロー数</p>
                 <p>〇〇名</p>
                 </div>
-                <p class="btn"><a href="">フォローリスト</a></p>
+                <p class="btn"><a href="/follow-list">フォローリスト</a></p>
                 <div>
                 <p>フォロワー数</p>
                 <p>〇〇名</p>
                 </div>
-                <p class="btn"><a href="">フォロワーリスト</a></p>
+                <p class="btn"><a href="/follower-list">フォロワーリスト</a></p>
             </div >
             <p class="btn"><a href="">ユーザー検索</a></p>
         </div>
     </div>
     <footer>
     </footer>
-    <script src="JavaScriptファイルのURL"></script>
-    <script src="JavaScriptファイルのURL"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <<script src="js/script.js"></script>
 </body>
 </html>
