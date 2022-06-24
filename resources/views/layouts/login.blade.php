@@ -22,10 +22,12 @@
 <body>
     <header>
         <div id = "head" class="userinfo">
-         <h1><a href="/index"><img src="images/main_logo.png"></a></h1>
+         <h1><a href="/login"><img src="images/main_logo.png"></a></h1>
           <div id="" class="">
                 <div id="">
-                    <p> <a id="acdn-button" class="acdn-button">さん<img class="icon-img"  src="images/dawn.png"></a></p>
+                    <p> <a id="acdn-button" class="acdn-button">
+                        {{ Auth::user()->username }}さん
+                        <img class="icon-img"  src="images/dawn.png"></a></p>
                 <div>
                 <ul id="acdn-target" class="acdn-target">
                     <li><a href="/top">ホーム</a></li>
@@ -41,7 +43,7 @@
         </div >
         <div id="side-bar">
             <div id="confirm">
-                <p> {{ Auth::user()->username }}さんの</p>
+                <p>{{ Auth::user()->username }}さんの</p>
                 <div>
                 <p>フォロー数</p>
                 <p>〇〇名</p>
